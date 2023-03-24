@@ -159,7 +159,7 @@ const Cards = () => {
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">15 Points</div>
               <label>Enter your command</label>
-              <input class=" rounded-lg my-3 bg-gray-300 text-black" onChange={(e) => setFlag(e.target.value)} />
+              <input class=" mt-2 rounded-lg my-3 bg-gray-300 text-black" onChange={(e) => setFlag(e.target.value)} />
               <button
                 type="submit"
                 id="myButton"
