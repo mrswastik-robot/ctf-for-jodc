@@ -139,6 +139,7 @@ const Cards = () => {
               <a class="text-orange-500 hover:text-blue-700 mx-auto mt-3 ml-2" href="https://github.com/pradyotRanjan/findTheFlag">
                    Flag here
               </a>
+              {'\n'}
               </p>
 
               <p><span className=" text-red-900">Hint</span>-<a className="ml-2 hover:text-blue-700" href="https://youtu.be/dQw4w9WgXcQ">Video Tutorial</a></p>
@@ -159,7 +160,8 @@ const Cards = () => {
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">15 Points</div>
               <label>Enter your command</label>
-              <input class=" mt-2 rounded-lg my-3 bg-gray-300 text-black" onChange={(e) => setFlag(e.target.value)} />
+              {'\n'}
+              <input class=" rounded-lg my-3 bg-gray-300 w-[60%] text-black" onChange={(e) => setFlag(e.target.value)} />
               <button
                 type="submit"
                 id="myButton"

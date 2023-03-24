@@ -37,7 +37,7 @@ const HeroSection = () => {
         <HeroContent>
           <HeroH1><span className=" text-green-400 font-semibold font-montserrat">C</span>apture <span className=" text-green-400 font-semibold">T</span>he <span className=" text-green-400 font-semibold">F</span>lag.</HeroH1>
           <HeroP>
-          これはフラグではありません笑
+          フラグじゃない笑
           </HeroP>
           <HeroBtnWrapper>
             <Button onClick={scrollWin} to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' className=" cursor-wait">
